@@ -1,0 +1,25 @@
+server:
+  port: 8081
+
+
+
+spring:
+  data:
+    rest:
+      base-path: /api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ecommerce?userSSL=false&useUnicode=yes
+    username: Shri
+    password: Shri1432@bcd
+  jpa:
+    database: mysql
+    database-platform: mysql
+    hibernate:
+      ddl-auto: none
+    generate-ddl: on
+    show-sql: true
+    open-in-view: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
