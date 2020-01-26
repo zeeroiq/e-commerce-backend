@@ -2,3 +2,6 @@
 
 # e-commerce-backend
 SpringBoot for Back-End and Angular for Front-End
+
+
+Front-end of this project is also available here: https://github.com/zero1q/e-commerce-front-end.git
